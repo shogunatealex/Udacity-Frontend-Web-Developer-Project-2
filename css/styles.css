@@ -1,75 +1,82 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
+body {
 	margin: auto;
 	width: auto;
 }
 
-img, embed, object, video{
+img,
+embed,
+object,
+video {
 	max-width: 100%;
 	max-height: 100%;
 }
 
-hr{
+#name {
+	height: 110px;
+}
+
+hr {
 	border-top: 3px solid #394648;
 	border-bottom: 3px solid #394648;
 }
 
-#header{
+#header {
 	height: auto;
 }
 
-#profile-picture{
+#profile-picture {
 	border-radius: 100%;
 	margin-top: 5px;
 }
 
-.featured-work{
+.featured-work {
 	margin-bottom: 20px;
 }
 
-.featured-work h4{
+.featured-work h4 {
 	font-size: 32px;
-	color: #3A3335;
+	color: #3a3335;
 }
-.featured-work p{
-	color: #3A3335;
+.featured-work p {
+	color: #3a3335;
 }
-#featured-title{
+#featured-title {
 	color: #394648;
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
-#featured-title h2{
+#featured-title h2 {
 	font-size: 45px;
 }
 
-#profile-picture{
+#profile-picture {
 	float:left;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
 	hr{
 		margin-top:0px;
 	}
-	
-	#featured-title h2{
+
+	#featured-title h2 {
 		font-size: 20px;
 	}
-	#profile-picture{
+	#profile-picture {
 	  	display: block;
 		float:none;
 	  	margin-right: auto;
 	  	margin-left: auto;
 	}
-	.work-image{
+	.work-image {
 		width: 80%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.featured-work h4{
+	.featured-work h4 {
 		font-size:24px;
 	}
 	#name{
@@ -77,34 +84,34 @@ hr{
 	}
 }
 
-@media screen and (min-width: 451px) and (max-width : 530px){
-	
-	#featured-title h2{
+@media screen and (min-width: 451px) and (max-width : 530px) {
+
+	#featured-title h2 {
 		font-size: 28px;
 	}
-	#profile-picture{
+	#profile-picture {
 	  	display: block;
 		float:none;
 	  	margin-right: auto;
 	  	margin-left: auto;
 	}
-	#name{
+	#name {
 		text-align: center !important;
 	}
-	hr{
+	hr {
 		margin-top:0px;
 	}
-	#main-image{
+	#main-image {
 		width:90%;
-		
+
 	}
-	.featured-work h4{
+	.featured-work h4 {
 		font-size:24px;
 	}
 }
 
-@media screen and (min-width: 531px) and (max-width : 992px){
-	hr{
+@media screen and (min-width: 531px) and (max-width : 992px) {
+	hr {
 		margin-top: 0px;
 	}
 }
