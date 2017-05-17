@@ -48,6 +48,7 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 5px;
 }
+
 #featured-title h2 {
 	font-size: 45px;
 }
@@ -64,21 +65,25 @@ hr {
 	#featured-title h2 {
 		font-size: 20px;
 	}
+	
 	#profile-picture {
 	  	display: block;
 		float:none;
 	  	margin-right: auto;
 	  	margin-left: auto;
 	}
+	
 	.work-image {
 		width: 80%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	
 	.featured-work h4 {
 		font-size:24px;
 	}
+	
 	#name{
 		text-align: center !important;
 	}
@@ -89,29 +94,36 @@ hr {
 	#featured-title h2 {
 		font-size: 28px;
 	}
+	
 	#profile-picture {
 	  	display: block;
 		float:none;
 	  	margin-right: auto;
 	  	margin-left: auto;
 	}
+	
 	#name {
 		text-align: center !important;
 	}
+	
 	hr {
 		margin-top:0px;
 	}
+	
 	#main-image {
 		width:90%;
 
 	}
+	
 	.featured-work h4 {
 		font-size:24px;
 	}
+	
 }
 
 @media screen and (min-width: 531px) and (max-width : 992px) {
 	hr {
 		margin-top: 0px;
 	}
+	
 }
